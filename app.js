@@ -87,3 +87,14 @@ for (let i = 0; i < txtArr.length; i++) {
     timerTime += 3000
     console.log(timerTime)
 }
+
+
+const quoteArr = document.querySelectorAll(".quote")
+function quoteFunc(q){
+
+    for(let i=0; i<quoteArr.length; i++){
+        quoteArr[i].classList.remove("hide")
+    }
+}
+let t121 = setInterval(quoteFunc, timerTime);
+    setTimeout(() => {clearInterval(t121)}, timerTime);

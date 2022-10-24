@@ -71,11 +71,15 @@ body {
 } */
 h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
+    max-width: 80%;
     position: absolute;
 }
 .green{
     color: #16A085;
+}
+.lightFont{
+    font-weight: lighter;
 }
 
 .hide {
@@ -95,4 +99,17 @@ span.fadeIn {
 
 span.fadeOut {
     opacity: 0;
+}
+img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: -40%;
+    right: -50%;
+}
+.l1, .l2, .l3, .l4,.l5 {
+    position: relative;
+    top: -20%;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
