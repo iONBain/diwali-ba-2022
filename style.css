@@ -72,8 +72,12 @@ body {
 h1 {
     text-align: center;
     font-size: 3rem;
-    max-width: 80%;
+    max-width: 90%;
     position: absolute;
+}
+h2 {
+    text-align: center;
+    max-width: 90%;
 }
 .green{
     color: #16A085;
